@@ -1,0 +1,14 @@
+streamlit
+numpy
+scipy
+secedgar
+pydeck
+pandas
+shapely
+fiona
+geopandas
+pygeos
+folium
+pyproj
+overpass
+geojson
