@@ -15,4 +15,4 @@ edgar.get_submissions(cik="320193")
 an = edgar()
 attrs = vars(an)
 
-st.write(an)
+st.write(attrs)
