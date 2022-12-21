@@ -16,5 +16,7 @@ edgar = EdgarClient(user_agent="Rad lab production <Anson>@<aragond.tech>")
 # appended to the recent filings to prevent the need for extra
 # manual pagination handling
 edgar.get_submissions(cik="320193")
-{
+
 st.write(daily_urls)
+
+st.write(edgar)
