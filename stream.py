@@ -11,7 +11,7 @@ edgar = EdgarClient(user_agent="Rad lab production <Anson>@<aragond.tech>")
 # Get submissions for Apple with the additional paginated files
 # appended to the recent filings to prevent the need for extra
 # manual pagination handling
-edgar.get_submissions(cik="320193")
+filin = edgar.get_submissions(cik="320193")
 
 
-print(edgar)
+print(filin)
