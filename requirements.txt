@@ -2,13 +2,5 @@ streamlit
 numpy
 scipy
 secedgar
-pydeck
+sec-edgar-api
 pandas
-shapely
-fiona
-geopandas
-pygeos
-folium
-pyproj
-overpass
-geojson
