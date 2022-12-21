@@ -14,4 +14,4 @@ edgar = EdgarClient(user_agent="Rad lab production <Anson>@<aragond.tech>")
 filin = edgar.get_submissions(cik="320193")
 
 
-print(filin)
+st.write(filin)
