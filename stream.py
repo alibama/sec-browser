@@ -3,8 +3,8 @@ from datetime import date
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from sec_edgar_api import EdgarClient
+
 
 # Specify user-agent string to pass to SEC to identify
 # requests for rate-limiting purposes
