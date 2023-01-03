@@ -1,7 +1,9 @@
 from secedgar import filings
 from datetime import date
 import streamlit as st
-
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 from sec_edgar_api import EdgarClient
 
 # Specify user-agent string to pass to SEC to identify
@@ -17,4 +19,5 @@ filin = edgar.get_submissions(cik="0001959228")
 df = pd.DataFrame(filin)
 #display the dataframe
 st.write(df)
-
+#display the dataframe as a table
+st.table(df)
