@@ -13,6 +13,8 @@ edgar = EdgarClient(user_agent="Rad lab production <Anson>@<aragond.tech>")
 # manual pagination handling
 #filin = edgar.get_submissions(cik="320193") 
 filin = edgar.get_submissions(cik="0001959228")
+#create a dataframe from the filin
+df = pd.DataFrame(filin)
+#display the dataframe
+st.write(df)
 
-
-st.write(filin)
