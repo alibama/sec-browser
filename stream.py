@@ -21,3 +21,4 @@ df = pd.DataFrame(filin)
 st.write(df)
 #display the dataframe as a table
 st.table(df)
+#display the dataframe as a chart
